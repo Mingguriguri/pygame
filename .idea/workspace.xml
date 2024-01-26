@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52395d65-83ac-4ffb-bd30-4a82e1dfd121" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/W07/breakOut.py" beforeDir="false" afterPath="$PROJECT_DIR$/W07/breakOut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W07/textExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W07/textExample_ans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W07/breakOut_ans.py" beforeDir="false" afterPath="$PROJECT_DIR$/W07/breakOut_ans.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +31,17 @@
       <file leaf-file-name="breakOut_ans.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/W07/breakOut_ans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="14" column="14" selection-end-line="55" selection-end-column="27" />
+            <state relative-caret-position="98">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="textExample_ans.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/W07/textExample_ans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="18" column="19" selection-start-line="18" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -37,8 +49,8 @@
       <file leaf-file-name="breakOut.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W07/breakOut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -47,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/W06/shooting_ans.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
-              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -84,16 +96,17 @@
         <option value="$PROJECT_DIR$/W06/shooting.py" />
         <option value="$PROJECT_DIR$/W04/superMario_answer.py" />
         <option value="$PROJECT_DIR$/W07/bounceRect_ans.py" />
-        <option value="$PROJECT_DIR$/W07/breakOut_ans.py" />
         <option value="$PROJECT_DIR$/W07/breakOut.py" />
+        <option value="$PROJECT_DIR$/W07/textExample_ans.py" />
+        <option value="$PROJECT_DIR$/W07/breakOut_ans.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -129,18 +142,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W07" />
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W06" />
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W05" />
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W04" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rlaal\PycharmProjects\untitled\W07" />
       <recent name="C:\Users\rlaal\PycharmProjects\untitled\W06" />
       <recent name="C:\Users\rlaal\PycharmProjects\untitled\W05" />
       <recent name="C:\Users\rlaal\PycharmProjects\untitled\W04" />
       <recent name="C:\Users\rlaal\PycharmProjects\untitled\W03" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W07" />
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W06" />
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W05" />
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W04" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -155,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.breakOut">
+  <component name="RunManager" selected="Python.breakOut_ans">
     <configuration name="bounceRect_ans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,7 +241,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="shooting_ans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="textExample_ans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,30 +249,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/W06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/W07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/W06/shooting_ans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/W07/textExample_ans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.shooting_ans" />
       <item itemvalue="Python.shooting" />
       <item itemvalue="Python.bounceRect_ans" />
       <item itemvalue="Python.breakOut_ans" />
       <item itemvalue="Python.breakOut" />
+      <item itemvalue="Python.textExample_ans" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.breakOut" />
         <item itemvalue="Python.breakOut_ans" />
+        <item itemvalue="Python.textExample_ans" />
+        <item itemvalue="Python.breakOut" />
         <item itemvalue="Python.bounceRect_ans" />
         <item itemvalue="Python.shooting" />
-        <item itemvalue="Python.shooting_ans" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +300,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32922536" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.340388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28858024" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.093474425" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -303,6 +316,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/W07/breakOut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W06/shooting_ans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W07/breakOut_ans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="14" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/W07/bounceRect_ans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -569,9 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/W07/bounceRect.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/W05/jump_ans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -592,21 +623,38 @@
     <entry file="file://$PROJECT_DIR$/W06/shooting_ans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/W07/breakOut.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W07/textExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W07/textExample_ans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="18" column="19" selection-start-line="18" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/W07/breakOut_ans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="14" column="14" selection-end-line="55" selection-end-column="27" />
+        <state relative-caret-position="98">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
