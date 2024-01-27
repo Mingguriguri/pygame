@@ -27,7 +27,6 @@ image2 = pygame.transform.scale(image2, (40,40))
 pygame.mixer.music.load('bgm.ogg')
 pygame.mixer.music.play(-1, 0)
 
-
 while True:
 	for event in pygame.event.get():
 		if event.type == QUIT:

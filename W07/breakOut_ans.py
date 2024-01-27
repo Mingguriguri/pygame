@@ -5,13 +5,23 @@ def gameInit():
 	global gameStart
 	global text
 	global font
+	global brickList
+
 	gameStart = False
 	stick.centerx = width/2
 	ball.centerx = stick.centerx
 	ball.bottom = stick.top
 	font = pygame.font.SysFont(pygame.font.get_default_font(), 45)
 	text = font.render("Press SPACE KEY to Start", False, (255, 255, 255))
-
+	x = 20
+	y = 10
+	for i in range(5):
+		for j in range(9):
+			brick = pygame.Rect(x, y, 80, 30)
+			brickList.append(brick)
+			x += 85
+		x = 20
+		y += 35
 
 pygame.init()
 
@@ -25,15 +35,6 @@ ball = pygame.Rect(390, 240, 20, 20)
 vel = [-1, -1]
 # 벽돌들
 brickList = []
-x = 20
-y = 10
-for i in range(5):
-	for j in range(9):
-		brick = pygame.Rect(x, y, 80, 30)
-		brickList.append(brick)
-		x += 85
-	x = 20
-	y += 35
 gameStart = False
 gameInit()
 
