@@ -2,6 +2,18 @@ import pygame, sys
 from pygame.locals import *
 import random
 
+def gameInit():	# 미션2. 초기화 함수 구현하기
+	global cnt, score, text
+	global backX, backX2
+	global bullets, enemies
+
+	cnt, score = 0, 0
+	text = font.render(str(score), True, (255, 255, 255))
+	backX, backX2 = 0, width-10
+	bullets, enemies = [], []
+	hpBar.width = 200
+	spaceship['rect'].y = 215
+
 # 함수 정의하기
 def drawEnemies():
 	for enemy in enemies:
@@ -25,6 +37,19 @@ def loading():
 		screen.blit(image, (0, 0))
 		pygame.display.update()
 
+def gameOver():	# 미션1. 게임 종료 화면
+	image = pygame.image.load('gameover.jpg')
+	image = pygame.transform.scale(image, (width, height))
+	while True:
+		for event in pygame.event.get():
+			if event.type == QUIT:
+				pygame.quit()
+				sys.exit()
+			if event.type == KEYDOWN and event.key == K_r:
+				return
+
+		screen.blit(image, (0, 0))
+		pygame.display.update()
 
 pygame.init()
 
@@ -64,6 +89,9 @@ outline = pygame.Rect(10, 10, 200, 20)
 
 # 게임 시작 (화면A)
 loading()
+# 게임 시작 전 초기화 함수 호출
+gameInit()
+
 while True:
 	pygame.time.delay(10)
 	cnt += 1
@@ -112,9 +140,8 @@ while True:
 			score += 1
 			hpBar.width -= 10
 			if hpBar.width <= 0:
-				pygame.quit()
-				sys.exit()
-
+				gameOver()	# 게임 종료 화면 띄우기
+				gameInit()  # 재시작 전 초기화
 	# 배경 움직임
 	if backX <= width * -1:
 		backX = width-10
