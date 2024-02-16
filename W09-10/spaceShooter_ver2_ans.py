@@ -10,6 +10,22 @@ def drawEnemies():
 		if enemy['rect'].left < 0:
 			enemies.remove(enemy)
 
+# 게임 시작 화면
+def loading():
+	image = pygame.image.load('start.jpg')
+	image = pygame.transform.scale(image, (width, height))
+	while True:
+		for event in pygame.event.get():
+			if event.type == QUIT:
+				pygame.quit()
+				sys.exit()
+			if event.type == KEYDOWN and event.key == K_SPACE:
+				return
+
+		screen.blit(image, (0, 0))
+		pygame.display.update()
+
+
 pygame.init()
 
 width = 700
@@ -46,7 +62,10 @@ text = font.render(str(score), True, (255, 255, 255))
 hpBar = pygame.Rect(10, 10, 200, 20)
 outline = pygame.Rect(10, 10, 200, 20)
 
+# 게임 시작 (화면A)
+loading()
 while True:
+	pygame.time.delay(10)
 	cnt += 1
 	for event in pygame.event.get():
 		if event.type == QUIT:
@@ -63,12 +82,11 @@ while True:
 	if keyInput[K_RIGHT]:
 		backX -= 3
 		backX2 -= 3
-		drawEnemies()
 
 	if keyInput[K_UP] and spaceship['rect'].top > 0:
 		spaceship['rect'].top -= 3
 	elif keyInput[K_DOWN] and spaceship['rect'].bottom < height:
-		spaceship['rect'].bottom += 3
+ 		spaceship['rect'].bottom += 3
 
 	# 운석 추가하기
 	if cnt == 30:
@@ -91,6 +109,7 @@ while True:
 	for enemy in enemies:
 		if spaceship['rect'].colliderect(enemy['rect']):
 			enemies.remove(enemy)
+			score += 1
 			hpBar.width -= 10
 			if hpBar.width <= 0:
 				pygame.quit()
