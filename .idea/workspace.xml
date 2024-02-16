@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52395d65-83ac-4ffb-bd30-4a82e1dfd121" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/W09-10/gameover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-10/spaceShooter_ver2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-10/spaceShooter_ver2_ans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-10/start.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-10/stone1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W09-10/stone2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W08/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/W09/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W08/bullet1.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09/bullet1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W08/bullet2.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09/bullet2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W08/bullet3.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09/bullet3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W08/spaceShooter.py" beforeDir="false" afterPath="$PROJECT_DIR$/W09/spaceShooter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W08/spaceShooter_ans.py" beforeDir="false" afterPath="$PROJECT_DIR$/W09/spaceShooter_ans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W08/spaceship.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09/spaceship.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W08/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/W09-10/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09/bullet1.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09-10/bullet1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09/bullet2.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09-10/bullet2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09/bullet3.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09-10/bullet3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09/spaceShooter.py" beforeDir="false" afterPath="$PROJECT_DIR$/W09-10/spaceShooter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09/spaceShooter_ans.py" beforeDir="false" afterPath="$PROJECT_DIR$/W09-10/spaceShooter_ans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09/spaceship.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09-10/spaceship.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W09/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/W09-10/test.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,9 +28,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="spaceShooter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/W09/spaceShooter.py">
+        <entry file="file://$PROJECT_DIR$/W09-10/spaceShooter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="483">
               <caret line="24" column="13" selection-start-line="21" selection-start-column="12" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -36,26 +42,41 @@
       <file leaf-file-name="breakOut_ans.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W07/breakOut_ans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="252">
               <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jump_ans.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jump_ans.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W05/jump_ans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-534">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spaceShooter_ans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/W09/spaceShooter_ans.py">
+      <file leaf-file-name="spaceShooter_ver2_ans.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/W09-10/spaceShooter_ver2_ans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="698">
+              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spaceShooter_ver2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/W09-10/spaceShooter_ver2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,10 +120,12 @@
         <option value="$PROJECT_DIR$/W08/spaceShooter_ans.py" />
         <option value="$PROJECT_DIR$/W09/spaceShooter.py" />
         <option value="$PROJECT_DIR$/W05/jump_ans.py" />
+        <option value="$PROJECT_DIR$/W09-10/spaceShooter_ver2.py" />
+        <option value="$PROJECT_DIR$/W09-10/spaceShooter_ver2_ans.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1047" />
     <option name="y" value="-24" />
     <option name="width" value="864" />
@@ -114,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,42 +148,31 @@
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="W05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="W06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="W09" type="462c0819:PsiDirectoryNode" />
+              <item name="W09-10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W08" />
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W07" />
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W06" />
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W05" />
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W04" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W09-10" />
       <recent name="C:\Users\rlaal\PycharmProjects\untitled\W08" />
       <recent name="C:\Users\rlaal\PycharmProjects\untitled\W07" />
       <recent name="C:\Users\rlaal\PycharmProjects\untitled\W06" />
       <recent name="C:\Users\rlaal\PycharmProjects\untitled\W05" />
-      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W04" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W09-10" />
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W08" />
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W07" />
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W06" />
+      <recent name="C:\Users\rlaal\PycharmProjects\untitled\W05" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.spaceShooter">
+  <component name="RunManager" selected="Python.spaceShooter_ver2">
     <configuration name="breakOut" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,7 +260,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="textExample_ans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spaceShooter_ver2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,11 +268,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/W07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/W09-10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/W07/textExample_ans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/W09-10/spaceShooter_ver2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,17 +281,17 @@
     <list>
       <item itemvalue="Python.breakOut_ans" />
       <item itemvalue="Python.breakOut" />
-      <item itemvalue="Python.textExample_ans" />
       <item itemvalue="Python.spaceShooter_ans" />
       <item itemvalue="Python.spaceShooter" />
+      <item itemvalue="Python.spaceShooter_ver2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.spaceShooter_ver2" />
         <item itemvalue="Python.spaceShooter" />
         <item itemvalue="Python.spaceShooter_ans" />
         <item itemvalue="Python.breakOut_ans" />
         <item itemvalue="Python.breakOut" />
-        <item itemvalue="Python.textExample_ans" />
       </list>
     </recent_temporary>
   </component>
@@ -296,10 +309,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15659778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19554849" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -327,17 +340,21 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/W05/jump_ans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/W07/bounceRect_ans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/W09/spaceShooter_ans.py">
+    <entry file="file://$PROJECT_DIR$/W09-10/spaceShooter_ans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1491">
           <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
@@ -611,15 +628,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/W09/spaceShooter.py">
+    <entry file="file://$PROJECT_DIR$/W09-10/spaceShooter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="483">
           <caret line="24" column="13" selection-start-line="21" selection-start-column="12" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -629,22 +643,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/W07/breakOut_ans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="252">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/W09/spaceShooter_ans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/W05/jump_ans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-534">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W09-10/spaceShooter_ans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W09-10/spaceShooter_ver2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W09-10/spaceShooter_ver2_ans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
