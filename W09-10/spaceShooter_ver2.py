@@ -1,5 +1,39 @@
 import pygame, sys
 from pygame.locals import *
+import random
+
+# 함수 정의하기
+def drawEnemies():
+	for enemy in enemies:
+		enemy['rect'].x -= 3
+		screen.blit(enemy['image'], enemy['rect'])
+		if enemy['rect'].left < 0:
+			enemies.remove(enemy)
+
+def loading():
+	image = pygame.image.load('start.jpg')
+	image = pygame.transform.scale(image, (width, height))
+	while True:
+		for event in pygame.event.get():
+			if event.type == QUIT:
+				pygame.quit()
+				sys.exit()
+			if event.type == KEYDOWN and event.key == K_SPACE:
+				return
+
+		screen.blit(image, (0, 0))
+		pygame.display.update()
+
+def gameInit(): #초기화 함수
+	# 변수, 리스트  초기화
+	# breakOut 코드 참고
+	return
+def gameOver(): # 게임 종료 화면
+	### loading()함수와 매우 비슷함
+	# 종료 화면 : gameover.jpg
+	# 종료 코드
+	return
+# def newScreen() 초기화 함수와 게임 종료 화면 함수의 기능을 합쳐서 구현해도 됨mmklmm                                        ㅡㅡㅡ ㅡㅡㅡㅡ
 
 pygame.init()
 
@@ -23,9 +57,23 @@ bullets = []
 bulletImage = pygame.image.load('bullet1.png')
 bulletImage = pygame.transform.scale(bulletImage, (20, 10))
 
+# 운석들
+enemies = []
+cnt = 0
+imgList = [pygame.image.load('stone1.png'),
+		   pygame.image.load('stone2.png')]
 
+# 점수와 HP
+score = 0
+font = pygame.font.SysFont(pygame.font.get_default_font(), 40)
+text = font.render(str(score), True, (255, 255, 255))
 
+hpBar = pygame.Rect(10, 10, 200, 20)
+outline = pygame.Rect(10, 10, 200, 20)
+
+loading()
 while True:
+	cnt += 1
 	for event in pygame.event.get():
 		if event.type == QUIT:
 			pygame.quit()
@@ -41,11 +89,38 @@ while True:
 	if keyInput[K_RIGHT]:
 		backX -= 3
 		backX2 -= 3
+		drawEnemies()
 
 	if keyInput[K_UP] and spaceship['rect'].top > 0:
 		spaceship['rect'].top -= 3
 	elif keyInput[K_DOWN] and spaceship['rect'].bottom < height:
 		spaceship['rect'].bottom += 3
+
+	# 운석 추가하기
+	if cnt == 30:
+		cnt = 0
+		size = random.randint(5, 30)
+		enemy = {'rect': pygame.Rect(width, random.randint(0, height-size),
+									 size, size),
+				 'image': pygame.transform.scale(random.choice(imgList), (size, size))}
+		enemies.append(enemy)
+
+	# 총알과 운석의 충돌
+	for bullet in bullets:
+		for enemy in enemies:
+			if bullet.colliderect(enemy['rect']):
+				enemies.remove(enemy)
+				score += 1
+				text = font.render(str(score), True, (255, 255, 255))
+
+	# 운석과 주인공의 충돌
+	for enemy in enemies:
+		if spaceship['rect'].colliderect(enemy['rect']):
+			enemies.remove(enemy)
+			hpBar.width -= 10
+			if hpBar.width <= 0:
+				pygame.quit()
+				sys.exit()
 
 	# 배경 움직임
 	if backX <= width * -1:
@@ -60,6 +135,7 @@ while True:
 
 	screen.blit(bgImage, (backX, 0))
 	screen.blit(bgImage, (backX2, 0))
+	drawEnemies()
 
 	for bullet in bullets:
 		bullet.x += 5
@@ -68,4 +144,9 @@ while True:
 			bullets.remove(bullet)
 
 	screen.blit(spaceship['image'], spaceship['rect'])
+	screen.blit(text, ((width - text.get_width()) / 2, 10))
+
+	# HP 표시하기
+	pygame.draw.rect(screen, (255, 0, 0), hpBar)
+	pygame.draw.rect(screen, (255, 255, 255), outline, 2)
 	pygame.display.update()

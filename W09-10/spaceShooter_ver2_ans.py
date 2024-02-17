@@ -116,7 +116,7 @@ while True:
 	elif keyInput[K_DOWN] and spaceship['rect'].bottom < height:
  		spaceship['rect'].bottom += 3
 
-	# 운석 추가하기
+# 운석 추가하기
 	if cnt == 30:
 		cnt = 0
 		size = random.randint(5, 30)
